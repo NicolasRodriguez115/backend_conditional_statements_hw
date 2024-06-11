@@ -11,15 +11,15 @@
 # else number < 0:
 #     print("The number is negative.")
 
-# number = input("Enter a number: ")
+number = input("Enter a number: ")
 
-# if int(number) > 0:
-#     print("The number is positive.")
-# elif int(number) == 0:
-#     print("The number is zero.")
-# else:
-#     int(number) < 0
-#     print("The number is negative.")
+if int(number) > 0:
+    print("The number is positive.")
+elif int(number) == 0:
+    print("The number is zero.")
+else:
+    int(number) < 0
+    print("The number is negative.")
 
 # 2. The Greatest Showdown
 # Task 1: Identify the Greatest
@@ -31,4 +31,4 @@ if num_1 >= num_2 and num_3:
 elif num_2 >= num_1 and num_3:
     print(f"The largest number is {num_2} ")
 else:
-    print(f"The largest number is {num_3}") 
+    print(f"The largest number is {num_3}")  
