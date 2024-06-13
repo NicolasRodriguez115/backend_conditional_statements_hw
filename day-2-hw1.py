@@ -26,9 +26,9 @@ else:
 
 num_1, num_2, num_3 = int(input("Enter first number:\n")), int(input("Enter second number:\n")), int(input("Enter third number:\n"))
 
-if num_1 >= num_2 and num_3:
+if num_1 > num_2 and num_1 > num_3:
     print(f"The largest number is {num_1} ")
-elif num_2 >= num_1 and num_3:
+elif num_2 > num_1 and num_2 > num_3:
     print(f"The largest number is {num_2} ")
 else:
     print(f"The largest number is {num_3}")  
